@@ -26,7 +26,7 @@ canvas {
   margin-inline-start: auto;
   margin-inline-end: auto;
   position: relative;
-  max-width: 1120px;
+  max-width: 1320px;
 }
 
 @layer utilities {
@@ -39,7 +39,7 @@ canvas {
   }
 
   .btn {
-    @apply px-5 py-2 rounded-3xl w-28 h-10 bg-white text-black my-5 hover:bg-gray-200 border-transparent hover:border hover:text-white hover:text-gray-50 hover:border-gray-50 transition-all
+    @apply px-5 py-2 rounded-3xl w-28 h-10 bg-white text-black my-5 hover:bg-gray-200 border-transparent hover:border hover:text-white hover:bg-[#B8AC9A] hover:border-gray-50 transition-all
   }
 
   .color-container {
@@ -115,7 +115,7 @@ canvas {
   }
 
   .video-carousel_container {
-    @apply relative sm:w-[70vw] w-[88vw] md:h-[70vh] sm:h-[50vh] h-[35vh]
+    @apply relative sm:w-[70vw] w-[80vw] md:h-[70vh] sm:h-[50vh] h-[35vh]
   }
 
   .g_fadeIn {
